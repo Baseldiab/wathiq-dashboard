@@ -1,0 +1,104 @@
+[33mdabdd26[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/edit-editor[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32medit-editor[m[33m)[m fix size in text editor
+[33m31a59eb[m update
+[33m6e71d4c[m merge Role branch
+[33mc7194ce[m Merge branch 'roles' of https://github.com/ShimaaHamdy5/Auctions-Dashbord
+[33mebce4f3[m[33m ([m[1;31morigin/roles[m[33m)[m fix update email with json
+[33ma9cb88d[m fix : file label zindex
+[33m19beb26[m add auction roles
+[33mb65d6d7[m add origin price to provider request
+[33m3ff7f18[m Merge branch 'roles' of https://github.com/ShimaaHamdy5/Auctions-Dashbord
+[33mfbc2eb6[m fix : drop down lists be in left & initilize localization in otp form
+[33m469c192[m add identyNumber in agencies
+[33ma81ef71[m add remove trush icon in logo delete
+[33me23fee3[m fix editor
+[33ma243050[m add provider roles
+[33m571759a[m edit
+[33m31771fb[m fix: active auctions from requests auctions
+[33mfac2b4c[m update content control roles
+[33m47fc962[m update employee roles
+[33mb6fa117[m update departments roles
+[33m2cc56ab[m add users role
+[33m752e0f9[m fix
+[33m5b5d574[m fix merge
+[33m8ab6f96[m extract text file
+[33m18d6105[m[33m ([m[1;31morigin/without_text[m[33m, [m[1;31morigin/fix-bugs[m[33m)[m add filter for support
+[33m091fbed[m fix setting & support issues
+[33m78cc6e0[m merge
+[33m46a30ed[m[33m ([m[1;31morigin/auction-in-platform[m[33m)[m add socket and work with auction
+[33m3dcbbe3[m style: awarded auction
+[33m413a00a[m add auctions at platform
+[33ma848cd8[m edit location on origin to be const
+[33m254f07d[m fix btn padding
+[33m2e04f52[m[33m ([m[1;31morigin/staging[m[33m)[m solve merge
+[33m2c22fac[m user&agency&auctions
+[33mdfa965d[m[33m ([m[1;31morigin/users[m[33m)[m agency & user tabs
+[33m474c3ec[m add agency and user
+[33m95186a5[m profile
+[33m339a9ec[m Merge branch 'main' of https://github.com/ShimaaHamdy5/Auctions-Dashbord
+[33m0adeef5[m add company info design
+[33m01b1444[m fix
+[33m6864623[m change WhatsAppIcon
+[33m5bf5168[m update name of personal info
+[33mc433624[m fix sucess popup
+[33m909cfd1[m Merge branch 'main' of https://github.com/ShimaaHamdy5/Auctions-Dashbord
+[33ma16d49d[m update personal info
+[33m5105e09[m[33m ([m[1;31morigin/support[m[33m)[m feat add support and change icon
+[33md6267f9[m Merge branch 'fix-bugs' of https://github.com/ShimaaHamdy5/Auctions-Dashbord
+[33m09cd85b[m Merge branch 'providers' of https://github.com/ShimaaHamdy5/Auctions-Dashbord
+[33me5565da[m change text for pass in employee
+[33maa61225[m[33m ([m[1;31morigin/providers[m[33m)[m add archive,blocked and requests for providers
+[33md460044[m fix bugs
+[33m91ed4ca[m Merge branch 'providers' of https://github.com/ShimaaHamdy5/Auctions-Dashbord
+[33m6b09857[m add radio btns for provider
+[33m59a3265[m fix
+[33m3692ba9[m Remove body ==> get profile
+[33m63f9bef[m updates
+[33m60162e3[m solve merge
+[33m8a6189e[m Merge branch 'providers' of https://github.com/ShimaaHamdy5/Auctions-Dashbord
+[33m004c085[m feat: add providers
+[33m9995a5d[m[33m ([m[1;31morigin/content-control[m[33m)[m edit in popup title
+[33md4bf5f1[m edit in style
+[33m7c41004[m edit
+[33m2156754[m edit in style
+[33m735e66e[m add content-control
+[33maa942c4[m updates
+[33mc7b5d78[m handle verify employee account
+[33md547a57[m handle Roles
+[33m7125d95[m edit text in  phone form
+[33mfc57e46[m edit
+[33mcd0bca9[m add shrink props in case of select in some cases
+[33m9a5581c[m edit
+[33m43b22d7[m edit
+[33m95a77ea[m edit in input component to be with label
+[33ma9970a8[m handle otp in snackbar
+[33m74eae91[m cheack on val in label
+[33m5a46cc4[m fix login textfield and fix forget password
+[33m6ced73d[m edit
+[33m575ba54[m edit in style
+[33m57fa5b0[m change national id icon
+[33m6f99171[m edit login textFeild
+[33m17718c8[m remove colum from emp table
+[33m41e01d3[m add close icon in personal details
+[33m190956a[m edit in personal
+[33m329a210[m Merge branch 'setting-page' of https://github.com/ShimaaHamdy5/Auctions-Dashbord
+[33mcf22649[m[33m ([m[1;31morigin/setting-page[m[33m)[m handle block user with confirmation popup
+[33m25cb0b7[m solve emp details issue
+[33mc010b2e[m feat: add departments
+[33m5513687[m feat : add employess
+[33ma946961[m handle update password
+[33m87f42b2[m change to new api in login & resetpass & sendOTP & resend & verify
+[33maf6e68a[m change in font and style
+[33m33ae7d7[m change icon to be svg
+[33m32dd9e9[m edit in setting icon
+[33mbb9e378[m change color from LamaSans to Almarai
+[33m208ecc3[m change icon image in navbar
+[33m45ea209[m edit in input padding
+[33m83c69fe[m Edit in logout onClick in collapsed sidebar
+[33m865ecb1[m edit in change btn in profile
+[33mb3d6cd8[m change personal info in responsive
+[33m42a43cf[m change input style to be with label
+[33m8423635[m create login and profile
+[33m8e9df52[m add apis to login flow
+[33m30ec459[m style: edit in navbar&sidebar
+[33m835cc24[m initial commet
+[33m1a1e9cc[m Initial commit from Create Next App

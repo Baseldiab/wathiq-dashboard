@@ -1,0 +1,413 @@
+@font-face {
+  font-family: "Almarai";
+  src: url("./fonts/Almarai-Light.ttf") format("truetype");
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "Almarai";
+  src: url("./fonts/Almarai-Regular.ttf") format("truetype");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Almarai";
+  src: url("./fonts/Almarai-Bold.ttf") format("truetype");
+  font-weight: 700;
+}
+
+.font-ar {
+  font-family: "Almarai" !important;
+}
+body.font-ar {
+  font-family: "Almarai" !important;
+  direction: rtl;
+}
+body {
+  direction: rtl;
+  font-family: "Almarai" !important;
+}
+* {
+  margin: 0px;
+}
+.container {
+  padding-left: 64px !important;
+  padding-right: 64px !important;
+  padding-top: 50px !important;
+  padding-bottom: 50px !important;
+}
+:root {
+  --white: #fff;
+  --black: #000;
+  --silver_spoon: #d2d2d2;
+  --plaster: #eaeaea;
+  /* --blue: #23614f; */
+  --shrub_green: #023936;
+  --washed_black: #202726;
+  --caramel_coating: #bd7611;
+  --gluon_grey: #161d1c;
+  --smoked_pearl: #6f6f6f;
+  --rivulet: #d6d9e1;
+  --blue:#1C4F92;
+  --light_blueWith_opacity:#1C4F921A;
+}
+* {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+.form-section {
+  padding: 50px;
+  background: linear-gradient(
+    270deg,
+    rgba(255, 255, 255, 0.06) 9.31%,
+    rgba(2, 57, 54, 0.06) 100%
+  );
+  min-height: 720px !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+}
+.form-container {
+  border: 1px solid var(--tokens-separating-border, #ebeef3);
+  background-color: var(--white);
+  color: #444b5c;
+  max-width: 546px !important;
+  padding: 24px;
+  gap: 32px;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 0.9rem;
+  font-weight: 500px;
+  text-align: center;
+}
+.button {
+  background-color: var(--shrub_green) !important;
+  color: var(--white) !important;
+  width: 100% !important;
+  border-radius: 12px !important;
+  padding: 16px 24px 16px 24px !important;
+  font-size: 18px !important;
+  font-weight: 700 !important;
+}
+.otp-input {
+  width: 100%;
+  height: 85px;
+  border-radius: 16px;
+  border: 1.5px solid var(--rivulet);
+  transition: border-color 0.3s ease-in-out;
+  font-size: 24px;
+  font-weight: 700;
+  flex: 1;
+  color: black; /* Default input text color */
+}
+
+.otp-input:focus {
+  outline: none;
+  border: 2px solid var(--blue);
+  color: var(--blue);
+}
+.otp-input-container {
+  display: flex;
+  gap: 16px;
+  align-items: stretch;
+}
+@media (max-width: 920px) {
+  html {
+    font-size: 14px;
+  }
+}
+@media (max-width: 767px) {
+  html {
+    font-size: 12px;
+  }
+  .otp-input {
+    height: 45px;
+    font-size: 24px;
+    font-weight: 700;
+  }
+}
+
+@media (max-width: 360px) {
+  html {
+    font-size: 11px;
+  }
+}
+
+.content {
+  width: 100%;
+}
+.layout-container {
+  display: flex;
+  position: relative;
+  min-height: 100vh !important;
+  max-height: 100%;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #e0e0e0;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.ps-sidebar-root {
+  background-color: #ffff!important;
+  height: 100% !important;
+  min-width: 300px !important;
+  width: 300px !important;
+}
+.ps-sidebar-root.ps-collapsed {
+  min-width: 80px !important;
+  width: 80px !important;
+}
+.ps-sidebar-container {
+  background-color: transparent !important;
+}
+.ps-menu-button {
+  margin: auto !important;
+  width: 85% !important;
+  padding: 8px 10px !important;
+}
+.ps-menu-button:hover {
+  background-color: transparent !important;
+  /* color: ; */
+}
+
+.ps-menu-button.ps-active:hover {
+  background-color: "#fff !important";
+  color: var(--blue) !important;
+}
+
+.ps-menu-button.ps-active {
+  background:var(--light_blueWith_opacity)  !important;
+  color: var(--blue) !important;
+  border-radius: 12px;
+  margin: auto;
+}
+
+.MuiTableCell-root.MuiTableCell-head {
+  font-size: 0.9rem !important;
+  color: #202726 !important;
+  font-weight: 700 !important;
+  background-color: #f5f5f5 !important;
+}
+.MuiTableCell-root.MuiTableCell-body {
+  border-bottom: 0px !important;
+  font-size: 0.8rem !important;
+  color: #6f6f6f !important;
+  font-weight: 700 !important;
+}
+
+.MuiTableCell-root.MuiTableCell-head,
+.MuiTableCell-root.MuiTableCell-body {
+  text-align: right !important;
+  padding: 12px !important;
+}
+
+tr.MuiTableRow-root.MuiTableRow-head
+  th.MuiTableCell-root.MuiTableCell-head:first-of-type {
+  border-top-right-radius: 12px !important;
+}
+
+tr.MuiTableRow-root.MuiTableRow-head
+  th.MuiTableCell-root.MuiTableCell-head:last-of-type {
+  border-top-left-radius: 12px !important;
+}
+.MuiBackdrop-root {
+  z-index: 9999;
+}
+/* LOOOOOOOOOOOOOOADING */
+/* .loader {
+  --path: #00db81;
+  --dot: #00db81;
+  --duration: 3s;
+  width: 44px;
+  height: 44px;
+  position: relative;
+}
+.loader:before {
+  content: "";
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  position: absolute;
+  display: block;
+  background: #023936;
+  top: 37px;
+  left: 19px;
+  transform: translate(-18px, -18px);
+  -webkit-animation: dotRect var(--duration)
+    cubic-bezier(0.785, 0.135, 0.15, 0.86) infinite;
+  animation: dotRect var(--duration) cubic-bezier(0.785, 0.135, 0.15, 0.86)
+    infinite;
+}
+.loader svg {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.loader svg rect,
+.loader svg polygon,
+.loader svg circle {
+  fill: none;
+  stroke: var(--path);
+  stroke-width: 10px;
+  stroke-linejoin: round;
+  stroke-linecap: round;
+}
+.loader svg polygon {
+  stroke-dasharray: 145 76 145 76;
+  stroke-dashoffset: 0;
+  -webkit-animation: pathTriangle var(--duration)
+    cubic-bezier(0.785, 0.135, 0.15, 0.86) infinite;
+  animation: pathTriangle var(--duration) cubic-bezier(0.785, 0.135, 0.15, 0.86)
+    infinite;
+}
+.loader svg rect {
+  stroke-dasharray: 192 64 192 64;
+  stroke-dashoffset: 0;
+  -webkit-animation: pathRect 3s cubic-bezier(0.785, 0.135, 0.15, 0.86) infinite;
+  animation: pathRect 3s cubic-bezier(0.785, 0.135, 0.15, 0.86) infinite;
+}
+.loader svg circle {
+  stroke-dasharray: 150 50 150 50;
+  stroke-dashoffset: 75;
+  -webkit-animation: pathCircle var(--duration)
+    cubic-bezier(0.785, 0.135, 0.15, 0.86) infinite;
+  animation: pathCircle var(--duration) cubic-bezier(0.785, 0.135, 0.15, 0.86)
+    infinite;
+}
+.loader.triangle {
+  width: 48px;
+}
+.loader.triangle:before {
+  left: 21px;
+  transform: translate(-10px, -18px);
+  -webkit-animation: dotTriangle var(--duration)
+    cubic-bezier(0.785, 0.135, 0.15, 0.86) infinite;
+  animation: dotTriangle var(--duration) cubic-bezier(0.785, 0.135, 0.15, 0.86)
+    infinite;
+}
+
+@-webkit-keyframes pathTriangle {
+  33% {
+    stroke-dashoffset: 74;
+  }
+  66% {
+    stroke-dashoffset: 147;
+  }
+  100% {
+    stroke-dashoffset: 221;
+  }
+}
+
+@keyframes pathTriangle {
+  33% {
+    stroke-dashoffset: 74;
+  }
+  66% {
+    stroke-dashoffset: 147;
+  }
+  100% {
+    stroke-dashoffset: 221;
+  }
+}
+@-webkit-keyframes dotTriangle {
+  33% {
+    transform: translate(0, 0);
+  }
+  66% {
+    transform: translate(10px, -18px);
+  }
+  100% {
+    transform: translate(-10px, -18px);
+  }
+}
+@keyframes dotTriangle {
+  33% {
+    transform: translate(0, 0);
+  }
+  66% {
+    transform: translate(10px, -18px);
+  }
+  100% {
+    transform: translate(-10px, -18px);
+  }
+}
+.loader {
+  display: inline-block;
+  margin: 0 16px;
+} */
+
+body .dribbble {
+  position: fixed;
+  display: block;
+  right: 20px;
+  bottom: 20px;
+}
+body .dribbble img {
+  display: block;
+  height: 28px;
+}
+
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px var(--blue);
+  background-color: #f5f5f5;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+  background-color: #f5f5f5;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--blue);
+}
+a{
+  text-decoration: none;
+}
+
+
+
+/* HTML: <div class="loader"></div> */
+.loader {
+  width: 50px;
+  aspect-ratio: 1;
+  display: grid;
+  border: 4px solid #0000;
+  border-radius: 50%;
+  border-right-color: #0C3F82;
+  animation: l15 1s infinite linear;
+}
+.loader::before,
+.loader::after {    
+  content: "";
+  grid-area: 1/1;
+  margin: 2px;
+  border: inherit;
+  border-radius: 50%;
+  animation: l15 2.5s infinite;
+}
+.loader::after {
+  margin: 8px;
+  animation-duration: 3s;
+}
+@keyframes l15{ 
+  100%{transform: rotate(1turn)}
+}
